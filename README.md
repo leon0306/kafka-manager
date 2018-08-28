@@ -1,7 +1,7 @@
 # kafka-manager
 
-包含了kafka-manager1.3.3.21的docker image.
-最新支持到kafka1.1.0版本的数据采集以及WEB展示.
+包含了kafka-manager-1.3.3.21版本的docker image.
+最新支持到kafka-1.1.0版本的数据采集以及WEB展示.
 
 + 运行命令
 ```
