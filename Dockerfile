@@ -23,7 +23,7 @@ RUN yum install -y git unzip which && \
 
 COPY consumer.properties /kafka-manager-${KM_VERSION}/conf/consumer.properties
 COPY application.conf /kafka-manager-${KM_VERSION}/conf/application.conf
-COPY kafka_plain_jaas.conf /kafka-manager-${KM_VERSION}/conf/kafka_plain_jaas.conf
+COPY kafka_jaas.conf /kafka-manager-${KM_VERSION}/conf/kafka_jaas.conf
 COPY start-kafka-manager.sh /kafka-manager-${KM_VERSION}/start-kafka-manager.sh
 
 RUN chmod +x /kafka-manager-${KM_VERSION}/start-kafka-manager.sh
