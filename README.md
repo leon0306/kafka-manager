@@ -8,4 +8,4 @@
 docker run --name kafka-manager -d  -p 9000:9000 -e ZK_HOSTS="zkhost:2181" -e APPLICATION_SECRET=letmein kafka-manager-sasl:1.3.3.21
 ```
 
-启动后访问 http://localhost:9000即可. 具体配置项可参考sheepkiller/kafka-manager-docker
+启动后访问 http://localhost:9000  具体配置项可参考sheepkiller/kafka-manager-docker
